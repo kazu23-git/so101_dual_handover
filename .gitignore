@@ -1,0 +1,12 @@
+# 学習ログと動画
+logs/
+outputs/
+videos/
+
+# 外部から取得するロボットモデル
+assets/
+
+# Python
+__pycache__/
+*.egg-info/
+*.pyc

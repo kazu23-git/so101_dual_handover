@@ -1,0 +1,136 @@
+{
+  "params": {
+    "pitch_deg": 25.0,
+    "pad_top_z": 200.0,
+    "post_x": 25.0,
+    "base_x": 90.0,
+    "base_y": 80.0,
+    "base_t": 6.0,
+    "base_hole_d": 4.5,
+    "base_cbore_d": 9.0,
+    "base_cbore_depth": 2.5,
+    "post_w": 24.0,
+    "pad_y": 44.0,
+    "pad_t": 6.0,
+    "joint_bolt_y": 16.0,
+    "m3_clear": 3.4,
+    "m3_nut_af": 5.7,
+    "m3_nut_t": 2.8,
+    "head_w": 60.0,
+    "foot_t": 8.0,
+    "plate_t": 4.0,
+    "plate_top": 20.0,
+    "ledge_t": 4.0,
+    "ledge_front": 8.0,
+    "cam_hole_pitch": 45.0,
+    "cam_hole_z": 12.5,
+    "cam_hole_slot": 1.0
+  },
+  "frames": {
+    "pitch_deg": 25.0,
+    "camera_bottom_screw_in_mount_m": [
+      0.033469,
+      0.0,
+      0.220922
+    ],
+    "camera_bottom_screw_rpy_rad": [
+      0.0,
+      0.436332,
+      0.0
+    ],
+    "depth_origin_camera_link_in_mount_m": [
+      0.048359,
+      0.0175,
+      0.227771
+    ],
+    "color_optical_in_mount_m": [
+      0.048359,
+      0.0325,
+      0.227771
+    ],
+    "color_optical_quat_wxyz_ros": [
+      0.379928,
+      -0.596368,
+      0.596368,
+      -0.379928
+    ],
+    "color_camera_quat_wxyz_usd": [
+      0.596368,
+      0.379928,
+      -0.379928,
+      -0.596368
+    ],
+    "intrinsics_640x480_nominal": {
+      "width": 640,
+      "height": 480,
+      "fx": 615.0,
+      "fy": 615.0,
+      "cx": 320.0,
+      "cy": 240.0
+    },
+    "intrinsics_1280x720_nominal": {
+      "width": 1280,
+      "height": 720,
+      "fx": 924.0,
+      "fy": 924.0,
+      "cx": 640.0,
+      "cy": 360.0
+    }
+  },
+  "mesh_check": {
+    "stand": {
+      "triangles": 14732,
+      "vertices": 7356,
+      "non_manifold_directed_edges": 0,
+      "open_edges": 0,
+      "degenerate_tris": 0,
+      "volume": 165176.13082170277,
+      "bbox_min": [
+        -45.0,
+        -40.0,
+        0.0
+      ],
+      "bbox_max": [
+        45.0,
+        40.0,
+        200.0
+      ]
+    },
+    "head": {
+      "triangles": 7878,
+      "vertices": 3933,
+      "non_manifold_directed_edges": 0,
+      "open_edges": 0,
+      "degenerate_tris": 0,
+      "volume": 33094.09578816487,
+      "bbox_min": [
+        13.0,
+        -30.0,
+        200.0
+      ],
+      "bbox_max": [
+        40.72,
+        30.0,
+        245.007
+      ]
+    },
+    "d435i_body": {
+      "triangles": 24,
+      "vertices": 14,
+      "non_manifold_directed_edges": 0,
+      "open_edges": 0,
+      "degenerate_tris": 0,
+      "volume": 56249.99999999992,
+      "bbox_min": [
+        24.316,
+        -45.0,
+        214.625
+      ],
+      "bbox_max": [
+        57.539,
+        45.0,
+        247.848
+      ]
+    }
+  }
+}

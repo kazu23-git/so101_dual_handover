@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "so101_handover"
+version = "0.1.0"
+description = "Dual SO-ARM101 handover task for Isaac Lab"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["so101_handover*"]
